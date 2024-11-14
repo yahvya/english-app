@@ -1,0 +1,11 @@
+{
+    "name": "Piacentini",
+    "firstname": "Théo",
+    "birthdate": "",
+    "country": "Corsica",
+    "quickPresentation": "Developer",
+    "mainText": "Theo is a good programmer, shy a little bit but have good ideas in general",
+    "strenghs": ["Good at searching","Good at finding solutions","Good programmer"],
+    "weakness": ["Don't cooperative enough"],
+    "images": ["PIACENTINI.png"]
+}

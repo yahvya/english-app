@@ -1,3 +1,3 @@
 export const config = {
-    baseUrl: ""
+    baseUrl: "/english-app"
 }

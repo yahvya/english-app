@@ -1,0 +1,11 @@
+{
+    "name": "Grazietti",
+    "firstname": "Livia",
+    "birthdate": "",
+    "country": "Corsica",
+    "quickPresentation": "Good designer",
+    "mainText": "Livia is a shy person which is good at designing things",
+    "strenghs": ["Presentation design","Figma design","Front end"],
+    "weakness": ["Unknown"],
+    "images": ["GRAZIETTI.png"]
+}

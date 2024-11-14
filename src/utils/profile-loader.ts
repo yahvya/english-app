@@ -1,4 +1,4 @@
-import {config} from "@/utils/config";
+import {config as cfg} from "@/utils/config";
 
 /**
  * @brief user profile loader
@@ -23,7 +23,7 @@ export class ProfileLoader{
         return new Promise((resolve,reject) => {
             const lowerName = this.name.toLowerCase()
 
-            fetch(`${config.baseUrl}/configurations/${lowerName}/config.json`)
+            fetch(`${cfg.baseUrl}/configurations/${lowerName}/config.json`)
                 .then(response => response.json())
                 .then(config => {
                     this.name = config.name
@@ -31,7 +31,7 @@ export class ProfileLoader{
                     this.birthdate = config.birthdate
                     this.country = config.country
                     this.quickPresentation = config.quickPresentation
-                    this.images = config.images.map((image:string) => `${config.baseUrl}/configurations/${lowerName}/images/${image}`)
+                    this.images = config.images.map((image:string) => `${cfg.baseUrl}/configurations/${lowerName}/images/${image}`)
                     this.mainText = config.mainText
                     this.strenghts = config.strenghs
                     this.weakness = config.weakness

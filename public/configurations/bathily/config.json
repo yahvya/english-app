@@ -1,0 +1,11 @@
+{
+    "name": "Bathily",
+    "firstname": "Yahaya",
+    "birthdate": "",
+    "country": "Mali",
+    "quickPresentation": "Yahaya the goat of this class is a real good developer born at MALI.",
+    "mainText": "I'm a young developer born at MALI in 17 february 2004.\n Actually i have a dual nationality which make me malian and french at the same time.\nFrom my childhood, i always wanted to be a developer so i would say my biggest achievement in coding is to be there after skipping two grades thanks to my stubborn side.\nAfter trying many langages with many different projects i would say my principal strength is to have now, a good general culture in computer science which allow me to learn fast new technologies but also allow me to be able to work on a project without knowing nothing about it before.\n\nLike many people say, i'm too perfectionist sometimes which can be my biggest weakness, because most of the time you are ask to produce a result quickly, not the best implementation to obtain this result, but with this perfectionist part, this is something i got problem with.",
+    "strenghs": ["Good knowledge of many programming langage","Persevering","Versatile "],
+    "weakness": ["Really bad as designer","Too perfectionist sometimes"],
+    "images": ["yahaya-2.jpg","yahaya.JPG"]
+}

@@ -1,0 +1,26 @@
+.picture-cards{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 130px;
+    row-gap: 200px;
+    justify-content: space-around;
+    padding: 30px 30px 300px;
+
+    .picture-card{
+        transition: scale 0.3s, rotate 0.3s;
+
+        &:hover{
+            scale: 1.2;
+            rotate: 0deg !important;
+            z-index: 2;
+        }
+    }
+
+    .animation-container:nth-child(odd) .picture-card{
+        rotate: -5deg;
+    }
+
+    .animation-container:nth-child(even) .picture-card{
+        rotate: 3deg;
+    }
+}

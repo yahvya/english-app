@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+
+:root{
+    /*app fonts*/
+    --base-font: "Roboto","Arial","sans-serif";
+    --special-font: "Pacifico","Caveat","Roboto","Arial","sans-serif";
+
+    /*app sizes*/
+    --base-size: 18px;
+    --large-size: 23px;
+    --xx-large-size:30px;
+
+    /*app colors*/
+    --base-color: #000000;
+    --base-background: #ffffff;
+    --special-color: #EFD7DC;
+}
+
+/*default styles*/
+*{
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--base-color);
+    background-color: var(--base-background);
+    font-size: var(--base-size);
+    font-family: var(--base-font);
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+header p{
+    margin: 0;
+    font-size: 100px;
+    font-family: var(--special-font);
+    opacity: 0.2;
+    text-align: center;
+    transform: translateY(-60px);
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+pre{
+    font-family: inherit;
+}

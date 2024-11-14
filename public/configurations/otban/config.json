@@ -1,0 +1,11 @@
+{
+    "name": "Otban",
+    "firstname": "Mohamed Ismael",
+    "birthdate": "",
+    "country": "Djibouti",
+    "quickPresentation": "Young react native developer",
+    "mainText": "Ismael is a young djiboutian developer which is trying to train himself at reactnative instead of using flutter like i advised",
+    "strenghs": ["Good at producing result","Perseverant"],
+    "weakness": ["Don't listen enough","Production qualities","Team managing"],
+    "images": ["ISMAEL.png"]
+}

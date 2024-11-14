@@ -1,0 +1,55 @@
+.picture-card{
+    position: relative;
+    box-shadow: 0 0 15px -3px var(--base-color);
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/paper.png");
+    cursor: pointer;
+
+    swiper-slide{
+        height: 400px;
+        background-image: url("/images/paper.png");
+        .img-container{
+            height: 95%;
+
+            img{
+                display: block;
+                margin: auto;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+
+    .pin{
+        width: 30px;
+        fill: red;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-0px,-45px);
+        z-index: -1;
+    }
+
+    .presentation-container{
+        font-family: var(--special-font);
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 90%;
+
+        p:first-child{
+            font-size: var(--xx-large-size);
+        }
+    }
+}

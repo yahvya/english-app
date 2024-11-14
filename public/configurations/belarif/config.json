@@ -1,0 +1,11 @@
+{
+    "name": "Belarif",
+    "firstname": "Louisa",
+    "birthdate": "",
+    "country": "Algeria",
+    "quickPresentation": "International student and master of IA",
+    "mainText": "Louisa is an international student which is really good when it comes to IA.",
+    "strenghs": ["IA","Mathematics","Presentation"],
+    "weakness": ["Too lazy sometimes"],
+    "images": ["BELARIF.png"]
+}

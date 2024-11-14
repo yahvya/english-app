@@ -26,7 +26,7 @@
      * @brief redirect to details page
      */
     async function redirect(){
-        router.push({
+        await router.push({
             name: "details",
             params: {
                 name: props.name

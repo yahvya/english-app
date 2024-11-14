@@ -31,7 +31,7 @@ export class ProfileLoader{
                     this.birthdate = config.birthdate
                     this.country = config.country
                     this.quickPresentation = config.quickPresentation
-                    this.images = config.images.map((image:string) => `/${config.baseUrl}configurations/${lowerName}/images/${image}`)
+                    this.images = config.images.map((image:string) => `${config.baseUrl}/configurations/${lowerName}/images/${image}`)
                     this.mainText = config.mainText
                     this.strenghts = config.strenghs
                     this.weakness = config.weakness
